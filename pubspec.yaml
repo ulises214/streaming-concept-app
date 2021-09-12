@@ -16,6 +16,8 @@ dependencies:
     sdk: flutter
   font_awesome_flutter:
     path: ./packages/font_awesome_flutter
+  flutter_svg: ^0.22.0
+  get_it: ^7.2.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -31,6 +33,9 @@ flutter:
   assets:
     # Add assets from the images directory to the application.
     - assets/images/
+    - assets/svg_icons/
+    - assets/svg/
+
   fonts:
     - family: Poppins
       fonts:
