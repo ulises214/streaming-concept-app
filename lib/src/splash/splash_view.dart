@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../settings/settings_view.dart';
+import '../home/home_view.dart';
 import '../shared/widgets/atoms/svg_image.dart';
 import '../shared/widgets/atoms/svg_image_data.dart';
 import '../shared/widgets/templates/scaffold_background.dart';
@@ -49,9 +49,8 @@ class _SplashViewState extends State<SplashView> {
     super.initState();
     WidgetsBinding.instance?.addPostFrameCallback((_) async {
       await _controller.load();
-      return;
       Navigator.of(context).restorablePushNamedAndRemoveUntil(
-        SettingsView.routeName,
+        HomeView.routeName,
         (route) => false,
       );
     });
