@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
-import 'svg_icon_data.dart';
+part 'svg_icon_data.dart';
 
 class SvgIcon extends StatelessWidget {
   final SvgIconData data;
@@ -18,11 +18,13 @@ class SvgIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final size = this.size ?? Theme.of(context).iconTheme.size;
     return SvgPicture.asset(
       data.path,
       semanticsLabel: semanticsLabel,
       width: size,
       height: size,
+      color: color,
     );
   }
 }

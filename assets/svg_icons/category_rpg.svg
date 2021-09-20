@@ -1,23 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="29.009" height="23.854" viewBox="0 0 29.009 23.854">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#ffbef9"/>
-      <stop offset="1" stop-color="#fff1ff"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="20"
+   height="20"
+   viewBox="0 0 19.999999 20"
+   version="1.1"
+   id="svg21"
+   sodipodi:docname="category_rpg.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview23"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="12.283055"
+     inkscape:cx="14.24727"
+     inkscape:cy="9.8509693"
+     inkscape:window-width="1366"
+     inkscape:window-height="736"
+     inkscape:window-x="1366"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21" />
+  <defs
+     id="defs12">
+    <linearGradient
+       id="linear-gradient"
+       x1="12.947118"
+       y1="31.754622"
+       x2="12.947118"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1.1204038,0.89253535)"
+       y2="5.8619528">
+      <stop
+         offset="0"
+         stop-color="#ffbef9"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#fff1ff"
+         id="stop4" />
     </linearGradient>
-    <linearGradient id="linear-gradient-2" x1="0.5" y1="1" x2="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#a93aff"/>
-      <stop offset="1" stop-color="#ff81ff"/>
+    <linearGradient
+       id="linear-gradient-2"
+       x1="100.33647"
+       y1="109.71479"
+       x2="100.33647"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="scale(1.0001348,0.99986518)"
+       y2="91.017273">
+      <stop
+         offset="0"
+         stop-color="#a93aff"
+         id="stop7" />
+      <stop
+         offset="1"
+         stop-color="#ff81ff"
+         id="stop9" />
     </linearGradient>
   </defs>
-  <g id="skull_1_" data-name="skull (1)" transform="translate(0 0)">
-    <g id="Grupo_16550" data-name="Grupo 16550" transform="translate(0 0.74)">
-      <g id="Grupo_16549" data-name="Grupo 16549" transform="translate(0)">
-        <path id="Trazado_78416" data-name="Trazado 78416" d="M14.5,17.743l-1.7-1.356-2.55,2.55,1.7,4.249h1.7l.85-2.125.85,2.125h1.7l1.7-4.249-2.55-2.55Zm-5.1.344A2.616,2.616,0,0,1,8,17.672a.854.854,0,0,0-1.051.12L3.2,21.543H2.55a2.55,2.55,0,0,0-.74,4.99,2.55,2.55,0,0,0,4.99-.74v-.649l3.324-3.309a.851.851,0,0,0,.175-.954.6.6,0,0,1-.043-.244v-1.7a.849.849,0,0,0-.85-.85ZM19.727,6.6a4.358,4.358,0,0,1,2.018,2.018.85.85,0,0,0,.625.468,19.754,19.754,0,0,0-3.112-3.112.85.85,0,0,0,.468.625ZM26.46,21.543h-.651l-3.752-3.751a.854.854,0,0,0-1.051-.12,2.616,2.616,0,0,1-1.4.415.849.849,0,0,0-.85.85v1.7a.6.6,0,0,1-.043.244.851.851,0,0,0,.175.954l3.324,3.309v.649a2.55,2.55,0,0,0,4.99.74,2.55,2.55,0,0,0-.74-4.99ZM5.9,8.845a.85.85,0,0,0,1.368-.229A4.358,4.358,0,0,1,9.283,6.6a.85.85,0,0,0,.229-1.368Zm1.809,3.293a3.4,3.4,0,1,0,3.4-3.4A3.4,3.4,0,0,0,7.706,12.138Zm10.2,3.4a3.4,3.4,0,1,0-3.4-3.4A3.4,3.4,0,0,0,17.9,15.537Z" transform="translate(0 -5.229)" fill="url(#linear-gradient)"/>
+  <g
+     id="skull_1_"
+     data-name="skull (1)"
+     transform="matrix(0.68941161,0,0,0.68941161,-6.0486258e-4,1.7760529)">
+    <g
+       id="Grupo_16550"
+       data-name="Grupo 16550"
+       transform="translate(0,0.74)">
+      <g
+         id="Grupo_16549"
+         data-name="Grupo 16549">
+        <path
+           id="Trazado_78416"
+           data-name="Trazado 78416"
+           d="m 14.5,17.743 -1.7,-1.356 -2.55,2.55 1.7,4.249 h 1.7 l 0.85,-2.125 0.85,2.125 h 1.7 l 1.7,-4.249 -2.55,-2.55 z M 9.4,18.087 A 2.616,2.616 0 0 1 8,17.672 0.854,0.854 0 0 0 6.949,17.792 L 3.2,21.543 H 2.55 a 2.55,2.55 0 0 0 -0.74,4.99 2.55,2.55 0 0 0 4.99,-0.74 v -0.649 l 3.324,-3.309 a 0.851,0.851 0 0 0 0.175,-0.954 0.6,0.6 0 0 1 -0.043,-0.244 v -1.7 a 0.849,0.849 0 0 0 -0.85,-0.85 z M 19.727,6.6 a 4.358,4.358 0 0 1 2.018,2.018 0.85,0.85 0 0 0 0.625,0.468 19.754,19.754 0 0 0 -3.112,-3.112 0.85,0.85 0 0 0 0.468,0.625 z m 6.733,14.943 h -0.651 l -3.752,-3.751 a 0.854,0.854 0 0 0 -1.051,-0.12 2.616,2.616 0 0 1 -1.4,0.415 0.849,0.849 0 0 0 -0.85,0.85 v 1.7 a 0.6,0.6 0 0 1 -0.043,0.244 0.851,0.851 0 0 0 0.175,0.954 l 3.324,3.309 v 0.649 a 2.55,2.55 0 0 0 4.99,0.74 2.55,2.55 0 0 0 -0.74,-4.99 z M 5.9,8.845 A 0.85,0.85 0 0 0 7.268,8.616 4.358,4.358 0 0 1 9.283,6.6 0.85,0.85 0 0 0 9.512,5.232 Z m 1.809,3.293 a 3.4,3.4 0 1 0 3.4,-3.4 3.4,3.4 0 0 0 -3.403,3.4 z m 10.2,3.4 a 3.4,3.4 0 1 0 -3.4,-3.4 3.4,3.4 0 0 0 3.391,3.399 z"
+           transform="translate(0,-5.229)"
+           fill="url(#linear-gradient)"
+           style="fill:url(#linear-gradient)" />
       </g>
     </g>
-    <g id="Grupo_16552" data-name="Grupo 16552" transform="translate(5.156)">
-      <g id="Grupo_16551" data-name="Grupo 16551">
-        <path id="Trazado_78417" data-name="Trazado 78417" d="M109.119,94.383a6.021,6.021,0,0,0-2.821-2.8,6.189,6.189,0,0,0-2.55-.578h-6.8a6.326,6.326,0,0,0-2.567.578,6.022,6.022,0,0,0-2.8,2.822A6.189,6.189,0,0,0,91,96.949v5.1a4.209,4.209,0,0,0,1.955,3.569,4.128,4.128,0,0,0,1.445.595v.935a2.211,2.211,0,0,0,.17.884,2.509,2.509,0,0,0,2.38,1.666h.85v-4.249a.85.85,0,0,1,1.7,0V109.7h1.7v-4.249a.85.85,0,0,1,1.7,0V109.7h.85a2.558,2.558,0,0,0,2.55-2.55v-.935a4.348,4.348,0,0,0,1.462-.595,4.233,4.233,0,0,0,1.938-3.569v-5.1A6.325,6.325,0,0,0,109.119,94.383ZM96.949,101.2a2.55,2.55,0,1,1,2.55-2.55A2.552,2.552,0,0,1,96.949,101.2Zm6.8,0a2.55,2.55,0,1,1,2.55-2.55A2.552,2.552,0,0,1,103.748,101.2Z" transform="translate(-91 -91)" fill="url(#linear-gradient-2)"/>
+    <g
+       id="Grupo_16552"
+       data-name="Grupo 16552"
+       transform="translate(5.156)">
+      <g
+         id="Grupo_16551"
+         data-name="Grupo 16551">
+        <path
+           id="Trazado_78417"
+           data-name="Trazado 78417"
+           d="m 109.119,94.383 a 6.021,6.021 0 0 0 -2.821,-2.8 6.189,6.189 0 0 0 -2.55,-0.578 h -6.8 a 6.326,6.326 0 0 0 -2.567,0.578 6.022,6.022 0 0 0 -2.8,2.822 A 6.189,6.189 0 0 0 91,96.949 v 5.1 a 4.209,4.209 0 0 0 1.955,3.569 4.128,4.128 0 0 0 1.445,0.595 v 0.935 a 2.211,2.211 0 0 0 0.17,0.884 2.509,2.509 0 0 0 2.38,1.666 h 0.85 v -4.249 a 0.85,0.85 0 0 1 1.7,0 v 4.251 h 1.7 v -4.249 a 0.85,0.85 0 0 1 1.7,0 v 4.249 h 0.85 a 2.558,2.558 0 0 0 2.55,-2.55 v -0.935 a 4.348,4.348 0 0 0 1.462,-0.595 4.233,4.233 0 0 0 1.938,-3.569 v -5.1 a 6.325,6.325 0 0 0 -0.581,-2.568 z m -12.17,6.817 a 2.55,2.55 0 1 1 2.55,-2.55 2.552,2.552 0 0 1 -2.55,2.55 z m 6.8,0 a 2.55,2.55 0 1 1 2.55,-2.55 2.552,2.552 0 0 1 -2.551,2.55 z"
+           transform="translate(-91,-91)"
+           fill="url(#linear-gradient-2)"
+           style="fill:url(#linear-gradient-2)" />
       </g>
     </g>
   </g>

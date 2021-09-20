@@ -49,6 +49,7 @@ class _SplashViewState extends State<SplashView> {
     super.initState();
     WidgetsBinding.instance?.addPostFrameCallback((_) async {
       await _controller.load();
+      // return;
       Navigator.of(context).restorablePushNamedAndRemoveUntil(
         HomeView.routeName,
         (route) => false,

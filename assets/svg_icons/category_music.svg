@@ -1,11 +1,63 @@
-<svg id="Grupo_16546" data-name="Grupo 16546" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="23.346" height="27.425" viewBox="0 0 23.346 27.425">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#3affe1"/>
-      <stop offset="1" stop-color="#8199ff"/>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Grupo_16546"
+   data-name="Grupo 16546"
+   width="20"
+   height="20"
+   viewBox="0 0 19.999999 20.000001"
+   version="1.1"
+   sodipodi:docname="category_music.svg"
+   inkscape:version="1.1 (c4e8f9ed74, 2021-05-24)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview12"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     showgrid="false"
+     inkscape:zoom="10.683683"
+     inkscape:cx="3.5568258"
+     inkscape:cy="12.168088"
+     inkscape:window-width="1366"
+     inkscape:window-height="736"
+     inkscape:window-x="1366"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Grupo_16548" />
+  <defs
+     id="defs7">
+    <linearGradient
+       id="linear-gradient"
+       x1="207.74106"
+       x2="207.74106"
+       y2="137.85976"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.67283924,0,0,0.79038079,-129.77649,-88.961698)"
+       y1="112.55549">
+      <stop
+         offset="0"
+         stop-color="#3affe1"
+         id="stop2" />
+      <stop
+         offset="1"
+         stop-color="#8199ff"
+         id="stop4" />
     </linearGradient>
   </defs>
-  <g id="Grupo_16548" data-name="Grupo 16548">
-    <path id="Trazado_78415" data-name="Trazado 78415" d="M202,122.032l-14.907,4.219a1.056,1.056,0,0,0-.765,1.015v14.3a4.171,4.171,0,0,0-2.11-.587,4.219,4.219,0,1,0,4.219,4.219V132.281l12.8-3.616v8.681a4.17,4.17,0,0,0-2.11-.587,4.219,4.219,0,1,0,4.219,4.219V123.047A1.056,1.056,0,0,0,202,122.032Z" transform="translate(-180 -121.991)" fill="url(#linear-gradient)"/>
+  <g
+     id="Grupo_16548"
+     data-name="Grupo 16548">
+    <path
+       id="Trazado_78415"
+       data-name="Trazado 78415"
+       d="M 17.531134,0.02960762 6.6602687,3.106295 A 0.77008341,0.77008341 0 0 0 6.1023957,3.8464794 V 14.274692 A 3.0416836,3.0416836 0 0 0 4.5636874,13.846625 3.0766874,3.0766874 0 1 0 7.6403748,16.923312 V 7.5036463 L 16.974719,4.866694 v 6.330581 a 3.0409544,3.0409544 0 0 0 -1.538708,-0.428067 3.0766874,3.0766874 0 1 0 3.076687,3.076687 V 0.76979196 A 0.77008341,0.77008341 0 0 0 17.531134,0.02960762 Z"
+       fill="url(#linear-gradient)"
+       style="fill:url(#linear-gradient);stroke-width:0.729246" />
   </g>
 </svg>

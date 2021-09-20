@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 import '../atoms/svg_icon.dart';
-import '../atoms/svg_icon_data.dart';
 
 class CoinsIndicator extends StatelessWidget {
   const CoinsIndicator({Key? key}) : super(key: key);
@@ -16,7 +15,7 @@ class CoinsIndicator extends StatelessWidget {
       hoverElevation: 0,
       disabledElevation: 0,
       highlightElevation: 0,
-      shape: StadiumBorder(),
+      shape: const StadiumBorder(),
       child: Row(
         mainAxisSize: MainAxisSize.min,
         crossAxisAlignment: CrossAxisAlignment.center,

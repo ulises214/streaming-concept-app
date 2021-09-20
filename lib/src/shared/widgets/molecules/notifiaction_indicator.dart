@@ -8,9 +8,14 @@ class NotificationIndicator extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return IconButton(
-      onPressed: () {},
-      icon: const Icon(FontAwesomeIcons.comment),
+    return Material(
+      type: MaterialType.transparency,
+      shape: const CircleBorder(),
+      clipBehavior: Clip.antiAlias,
+      child: IconButton(
+        onPressed: () {},
+        icon: const Icon(FontAwesomeIcons.comment),
+      ),
     );
   }
 }
