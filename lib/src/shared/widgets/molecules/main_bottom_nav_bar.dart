@@ -21,8 +21,11 @@ class DiamondFabNotchedShape extends NotchedShape {
 }
 
 class MainBottomAppBar extends StatelessWidget {
-  const MainBottomAppBar({Key? key}) : super(key: key);
-
+  final int currentPage;
+  final void Function(int) onPageChange;
+  const MainBottomAppBar(
+      {Key? key, required this.currentPage, required this.onPageChange})
+      : super(key: key);
   @override
   Widget build(BuildContext context) {
     return BottomAppBar(
@@ -32,73 +35,45 @@ class MainBottomAppBar extends StatelessWidget {
       elevation: 0,
       color: Colors.transparent,
       child: GlassCard(
-        borderRadius: BorderRadius.vertical(top: kRadiusSmallCard),
+        borderRadius: const BorderRadius.vertical(top: kRadiusSmallCard),
         child: SafeArea(
-          child: _ItemsList(),
+          child: _ItemsList(
+            currentPage: currentPage,
+            onPageChange: onPageChange,
+          ),
         ),
       ),
     );
   }
 }
 
-class _ItemsList extends StatefulWidget {
+class _ItemsList extends StatelessWidget {
+  final int currentPage;
+  final void Function(int) onPageChange;
   const _ItemsList({
     Key? key,
+    required this.currentPage,
+    required this.onPageChange,
   }) : super(key: key);
-
-  @override
-  State<_ItemsList> createState() => _ItemsListState();
-}
-
-class _ItemsListState extends State<_ItemsList> {
-  int _selectedIndex = 0;
   @override
   Widget build(BuildContext context) {
+    const icons = [
+      FontAwesomeIcons.solidHomeSimple,
+      FontAwesomeIcons.solidMagnifyingGlass,
+      FontAwesomeIcons.solidCompass,
+      FontAwesomeIcons.solidBell,
+    ];
     return Row(
-      children: [
-        Expanded(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              _NavIcon(
-                FontAwesomeIcons.solidHomeSimple,
-                onPressed: () => _changeActive(0),
-                isActive: _selectedIndex == 0,
-              ),
-              _NavIcon(
-                FontAwesomeIcons.solidMagnifyingGlass,
-                onPressed: () => _changeActive(1),
-                isActive: _selectedIndex == 1,
-              ),
-            ],
-          ),
-        ),
-        Expanded(
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-            mainAxisSize: MainAxisSize.max,
-            children: [
-              _NavIcon(
-                FontAwesomeIcons.solidCompass,
-                onPressed: () => _changeActive(2),
-                isActive: _selectedIndex == 2,
-              ),
-              _NavIcon(
-                FontAwesomeIcons.solidBell,
-                onPressed: () => _changeActive(3),
-                isActive: _selectedIndex == 3,
-              ),
-            ],
-          ),
-        ),
-      ],
+      mainAxisAlignment: MainAxisAlignment.spaceAround,
+      children: List.generate(icons.length, (i) {
+        return _NavIcon(
+          icons[i],
+          onPressed: () => onPageChange(i),
+          isActive: currentPage == i,
+        );
+      }),
     );
   }
-
-  void _changeActive(int index) => setState(() {
-        _selectedIndex = index;
-      });
 }
 
 class _NavIcon extends StatelessWidget {
@@ -122,7 +97,7 @@ class _NavIcon extends StatelessWidget {
           child: Icon(
             icon,
             key: ValueKey(isActive),
-            color: !isActive ? kColorUnselectedItem : null,
+            color: !isActive ? kColorBlack : null,
             size: isActive ? 26 : 24,
           ),
         ),

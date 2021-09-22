@@ -30,18 +30,17 @@ TextStyle? _getStyleByType(TextProperties textProperties) {
 
 class TextProperties {
   final bool? bold;
-
   final bool? italic;
-
   final Color? color;
-
   final TextType? type;
+  final double? fontSize;
 
   const TextProperties({
     this.bold,
     this.italic,
     this.color,
     this.type,
+    this.fontSize,
   });
 
   TextProperties copyWith({
@@ -49,12 +48,14 @@ class TextProperties {
     bool? italic,
     Color? color,
     TextType? type,
+    double? fontSize,
   }) {
     return TextProperties(
       bold: bold ?? this.bold,
       italic: italic ?? this.italic,
       color: color ?? this.color,
       type: type ?? this.type,
+      fontSize: fontSize ?? this.fontSize,
     );
   }
 }

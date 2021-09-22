@@ -25,9 +25,7 @@ class _MainAppBarState extends State<MainAppBar> {
   @override
   Widget build(BuildContext context) {
     return GlassCard(
-      borderRadius: BorderRadius.vertical(
-        bottom: kRadiusBigCard,
-      ),
+      borderRadius: const BorderRadius.vertical(bottom: kRadiusBigCard),
       child: Column(
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceAround,

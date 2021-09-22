@@ -20,6 +20,7 @@ class StyledText extends StatelessWidget {
         fontWeight: textProperties.bold == true ? FontWeight.bold : null,
         fontStyle: textProperties.italic == true ? FontStyle.italic : null,
         color: textProperties.color,
+        fontSize: textProperties.fontSize,
       ),
     );
   }
