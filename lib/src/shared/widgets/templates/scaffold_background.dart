@@ -49,7 +49,7 @@ class ScaffoldBackground extends StatelessWidget {
           ),
           Positioned.fill(
             child: BackdropFilter(
-              filter: ImageFilter.blur(sigmaX: 120, sigmaY: 120),
+              filter: ImageFilter.blur(sigmaX: 160, sigmaY: 160),
               child: child,
             ),
           ),

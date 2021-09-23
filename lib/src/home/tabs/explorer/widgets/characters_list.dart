@@ -23,7 +23,7 @@ class TopGamesExplorerTab extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    const height = 230.0;
+    const height = 210.0;
     final _items = [
       CharacterItem.red(
         _characters[0]['image'] as ImageProvider,

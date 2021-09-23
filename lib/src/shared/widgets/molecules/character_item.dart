@@ -58,11 +58,11 @@ class CharacterItem extends StatelessWidget {
   Widget build(BuildContext context) {
     const aspectRatio = 2 / 3;
     final width = height * aspectRatio;
-    final imageSize = height * 0.8;
+    final imageSize = height;
     return Material(
       type: MaterialType.transparency,
       child: InkWell(
-        borderRadius: BorderRadius.all(kRadiusSmallCard),
+        borderRadius: const BorderRadius.all(kRadiusSmallCard),
         onTap: () {},
         child: SizedBox(
           height: height,
@@ -158,7 +158,7 @@ class _Image extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Transform.translate(
-      offset: Offset(20, 10),
+      offset: Offset(imageSize * 0.1, 0),
       child: ConstrainedBox(
         constraints: BoxConstraints(
           maxWidth: imageSize,
@@ -234,13 +234,13 @@ class _Title extends StatelessWidget {
         children: [
           StyledText(
             gameName,
-            textProperties: TextProperties(
+            textProperties: const TextProperties(
                 color: Colors.white, bold: true, type: TextType.body2),
           ),
           StyledText(
             numberShorter(viewers),
-            textProperties:
-                TextProperties(color: Colors.white, type: TextType.caption),
+            textProperties: const TextProperties(
+                color: Colors.white, type: TextType.caption),
           ),
         ],
       ),
