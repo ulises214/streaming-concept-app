@@ -1,11 +1,11 @@
 abstract class ImagesPaths {
   static const fakeProfile = 'assets/images/fake_profile.jpg';
-  static const flameBlueBottom = 'assets/images/flame_blue_bottom.png';
-  static const flameBlueTop = 'assets/images/flame_blue_top.png';
-  static const flamePurpleBottom = 'assets/images/flame_purple_bottom.png';
-  static const flamePurpleTop = 'assets/images/flame_purple_top.png';
-  static const flameRedBottom = 'assets/images/flame_red_bottom.png';
-  static const flameRedTop = 'assets/images/flame_red_top.png';
+  static const flameBlueBack = 'assets/images/flame_blue_back.png';
+  static const flameBlueFront = 'assets/images/flame_blue_front.png';
+  static const flamePurpleBack = 'assets/images/flame_purple_back.png';
+  static const flamePurpleFront = 'assets/images/flame_purple_front.png';
+  static const flameRedBack = 'assets/images/flame_red_back.png';
+  static const flameRedFront = 'assets/images/flame_red_front.png';
   static const gameCharacterClashRoyale =
       'assets/images/game_character_clash_royale.png';
   static const gameCharacterFreeFire =

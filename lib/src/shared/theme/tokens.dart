@@ -12,5 +12,5 @@ const kColorUnselectedItem = Color.fromRGBO(0x63, 0x6D, 0x96, 1);
 const kFloatingActionButtonDyOffset = 16.0;
 const kPaddingPageContent = EdgeInsets.symmetric(horizontal: 32);
 const kRadiusBigCard = Radius.circular(60.0);
-const kRadiusSmallCard = Radius.circular(16.0);
+const kRadiusSmallCard = Radius.circular(20.0);
 final kColorCardsBackground = Color.lerp(Colors.white, kColorDarkPurple, 0.5)!;

@@ -13,14 +13,12 @@ class DiscoverMainSection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: kPaddingPageContent,
-      child: Column(
-        children: const [
-          _DiscoverTitle(),
-          SizedBox(height: 5),
-          _CategoryList()
-        ],
+    return const HomeSectionTitle(
+      title: 'Descubrir',
+      subtitle: 'Siguiendo',
+      content: Padding(
+        padding: kPaddingPageContent,
+        child: _CategoryList(),
       ),
     );
   }
@@ -91,42 +89,6 @@ class _CategoryList extends StatelessWidget {
           ],
         ),
       ),
-    );
-  }
-}
-
-class _DiscoverTitle extends StatelessWidget {
-  const _DiscoverTitle({
-    Key? key,
-  }) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-      children: [
-        Row(
-          children: const [
-            Dot.purple(),
-            SizedBox(width: 15.0),
-            StyledText(
-              'Descubrir',
-              textProperties: TextProperties(
-                type: TextType.h5,
-                bold: true,
-              ),
-            ),
-          ],
-        ),
-        const StyledText(
-          'Siguiendo',
-          textProperties: TextProperties(
-            type: TextType.body1,
-            color: kColorUnselectedItem,
-            bold: true,
-          ),
-        ),
-      ],
     );
   }
 }

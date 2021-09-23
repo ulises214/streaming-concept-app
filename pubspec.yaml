@@ -19,6 +19,7 @@ dependencies:
   flutter_svg: ^0.22.0
   get_it: ^7.2.0
   palette_generator: ^0.3.1
+  big_numbers: ^2.2.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
