@@ -14,6 +14,18 @@ class GlassCard extends StatelessWidget {
     required this.child,
     this.backgroundOppacity = 0.2,
   }) : super(key: key);
+  const GlassCard.bigCard({
+    Key? key,
+    required this.child,
+    this.backgroundOppacity = 0.2,
+  })  : borderRadius = const BorderRadius.all(kRadiusBigCard),
+        super(key: key);
+  const GlassCard.smallCard({
+    Key? key,
+    required this.child,
+    this.backgroundOppacity = 0.2,
+  })  : borderRadius = const BorderRadius.all(kRadiusSmallCard),
+        super(key: key);
   @override
   Widget build(BuildContext context) {
     return ClipRRect(

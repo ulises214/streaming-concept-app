@@ -3,21 +3,26 @@ import 'package:flutter/material.dart';
 import 'tokens.dart';
 
 final kStramingAppTheme = _baseTheme.copyWith(
-    scaffoldBackgroundColor: kColorBlack,
-    appBarTheme: _baseTheme.appBarTheme.copyWith(
-      elevation: 0,
-      color: Colors.transparent,
-    ),
-    textTheme: _textTheme,
-    iconTheme: _baseTheme.iconTheme.copyWith(color: Colors.white),
-    floatingActionButtonTheme: _baseTheme.floatingActionButtonTheme.copyWith(
-      backgroundColor: kColorPurpleSecondary,
-      elevation: 0,
-      focusElevation: 0,
-      hoverElevation: 0,
-      disabledElevation: 0,
-      highlightElevation: 0,
-    ));
+  scaffoldBackgroundColor: kColorBlack,
+  appBarTheme: _baseTheme.appBarTheme.copyWith(
+    elevation: 0,
+    color: Colors.transparent,
+  ),
+  textTheme: _textTheme,
+  iconTheme: _baseTheme.iconTheme.copyWith(color: Colors.white),
+  floatingActionButtonTheme: _baseTheme.floatingActionButtonTheme.copyWith(
+    backgroundColor: kColorPurpleSecondary,
+    elevation: 0,
+    focusElevation: 0,
+    hoverElevation: 0,
+    disabledElevation: 0,
+    highlightElevation: 0,
+  ),
+  tabBarTheme: _baseTheme.tabBarTheme.copyWith(
+    indicatorSize: TabBarIndicatorSize.label,
+    unselectedLabelColor: kColorUnselectedItem,
+  ),
+);
 final _baseTextTheme = _baseTheme.textTheme;
 final _baseTheme = ThemeData.dark();
 final _textTheme = _baseTextTheme

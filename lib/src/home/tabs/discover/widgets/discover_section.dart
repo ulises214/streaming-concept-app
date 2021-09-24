@@ -70,9 +70,8 @@ class _CategoryList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GlassCard(
+    return GlassCard.smallCard(
       backgroundOppacity: 0.3,
-      borderRadius: const BorderRadius.all(kRadiusSmallCard),
       child: Padding(
         padding: const EdgeInsets.symmetric(vertical: 16.0),
         child: Column(

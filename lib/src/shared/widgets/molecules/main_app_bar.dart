@@ -2,7 +2,6 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
-import '../../theme/tokens.dart';
 import '../atoms/white_devider.dart';
 import 'coins_indicator.dart';
 import 'glass_card.dart';
@@ -24,8 +23,7 @@ class MainAppBar extends StatefulWidget implements PreferredSizeWidget {
 class _MainAppBarState extends State<MainAppBar> {
   @override
   Widget build(BuildContext context) {
-    return GlassCard(
-      borderRadius: const BorderRadius.vertical(bottom: kRadiusBigCard),
+    return GlassCard.bigCard(
       child: Column(
         mainAxisSize: MainAxisSize.max,
         mainAxisAlignment: MainAxisAlignment.spaceAround,
